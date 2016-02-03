@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		367999901C624BA40039C921 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3679998F1C624BA40039C921 /* TextStatsViewController.m */; };
 		367C9C291C5FAD0900A1F13A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 367C9C281C5FAD0900A1F13A /* main.m */; };
 		367C9C2C1C5FAD0900A1F13A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 367C9C2B1C5FAD0900A1F13A /* AppDelegate.m */; };
 		367C9C2F1C5FAD0900A1F13A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367C9C2E1C5FAD0900A1F13A /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3679998E1C624BA40039C921 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		3679998F1C624BA40039C921 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 		367C9C231C5FAD0900A1F13A /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C9C271C5FAD0900A1F13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		367C9C281C5FAD0900A1F13A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				367C9C2D1C5FAD0900A1F13A /* ViewController.h */,
 				367C9C2E1C5FAD0900A1F13A /* ViewController.m */,
 				367C9C301C5FAD0900A1F13A /* Main.storyboard */,
+				3679998E1C624BA40039C921 /* TextStatsViewController.h */,
+				3679998F1C624BA40039C921 /* TextStatsViewController.m */,
 				367C9C331C5FAD0900A1F13A /* Images.xcassets */,
 				367C9C351C5FAD0900A1F13A /* LaunchScreen.xib */,
 				367C9C261C5FAD0900A1F13A /* Supporting Files */,
@@ -222,6 +227,7 @@
 				367C9C2F1C5FAD0900A1F13A /* ViewController.m in Sources */,
 				367C9C2C1C5FAD0900A1F13A /* AppDelegate.m in Sources */,
 				367C9C291C5FAD0900A1F13A /* main.m in Sources */,
+				367999901C624BA40039C921 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				367C9C481C5FAD0A00A1F13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		367C9C491C5FAD0A00A1F13A /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				367C9C4B1C5FAD0A00A1F13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
